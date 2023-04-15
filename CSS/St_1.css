@@ -1,0 +1,58 @@
+#sp_0 {
+    width: 18%;
+    margin-left: 2%;
+}
+#sp_0 > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#sp_0 > ul > li {
+    margin-top: 20px;
+    position: relative;
+}
+#sp_0 > ul > li > a {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    background-color: chartreuse;
+    border-radius: 15px;
+    border: 1px solid red;
+    text-decoration: none;
+}
+#sp_0 > ul > li:hover {
+    left: 50%;
+    z-index: 1;
+}
+/* классы */
+.clk {
+    display: none;
+    background-color: rgb(227, 181, 181);
+    list-style-type: none;
+    border-radius: 0px 0px 15px 15px;
+    padding: 0;
+    margin: 0;
+}
+.clk li {
+    border-top: 1px solid red;
+}
+.clk_1 {
+    display: block;
+}
+.clk_1:hover .clk {
+    display: block;
+}
+.clk li:hover {
+    background-color: rgb(210, 210, 210);
+}
+.co {
+    border-radius: 0px 0px 15px 15px;
+}
+
+#sp_0_0 {
+    border: 1px solid red;
+    border-radius: 15px;
+    margin-top: 50%;
+    text-align: center;
+}
