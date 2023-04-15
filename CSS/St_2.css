@@ -1,0 +1,20 @@
+#sp_1 {
+    margin-left: 2%;
+    margin-top: 20px;
+}
+#sp_1 img {
+    width: 200px;
+    height: 170px;
+    border-bottom: 1px solid red;
+    margin: 0;
+}
+#sp_1 > div {
+    border: 1px solid red;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 0;
+    float: left;
+}
+#sp_1 > div > div {
+    border-top: 1px solid red;
+}
